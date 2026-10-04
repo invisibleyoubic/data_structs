@@ -1,0 +1,24 @@
+[
+  {
+    "file": "src/ring_buffer.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-O0",
+      "-g",
+      "-Iinclude",
+      "-MMD",
+      "-MP",
+      "-c",
+      "src/ring_buffer.c",
+      "-o",
+      "build/src/ring_buffer.o"
+    ],
+    "directory": "/home/invisibleUser/Documents/data_structs/ring_buffer",
+    "output": "build/src/ring_buffer.o"
+  }
+]
